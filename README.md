@@ -74,7 +74,7 @@ Something like that:
 ![c6](https://lingtalfi.com/img/logicpro-feature-request-screenshots/c6.png)
 
 
-Actually, with the alt behaviour of the pencil tool, we can to the first two steps in one click, but that's still three steps:
+Actually, with the alt behaviour of the pencil tool, we can do the first two steps in one click, but that's still three steps:
 
 - 1. Alt-click with the pencil tool where you want to create the cut
 - 2. Then with the pointer tool, select both end points
