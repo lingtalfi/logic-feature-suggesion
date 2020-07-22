@@ -20,7 +20,6 @@ Here are the ideas you will find in this document:
 
 
 * [The rectangular tool](#the-rectangular-tool)
-* [Hybrid automation mode, like ableton 10](#hybrid-automation-mode-like-ableton-10)
 * [Automation grid](#automation-grid)
 * [Entering automation value manually with an input box](#entering-automation-value-manually-with-an-input-box)
 * [Snap automation toggling via cmd modifier](#snap-automation-toggling-via-cmd-modifier)
@@ -92,17 +91,6 @@ The workflow would then be:
 
 Basically, it's like the pencil tool in logic, but the connection with sibling points is always horizontal (creating steps if necessary because of the vertical offset with the siblings),
 and not a direct straight (and often oblique) line like the pencil tool does.
-
-
-
-
-Hybrid automation mode, like ableton 10
---------
-2020-07-22
-
-
-I've just watch this video on ableton 10, and they have this mode where they can edit both regions and automation at the same time, using the top area of a region to select regions, and
-the main bottom area for automation editing, see this youtube video here, at 5:39 (https://www.youtube.com/watch?v=fip9RQn396Q&t=339).
 
 
 
