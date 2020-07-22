@@ -90,7 +90,7 @@ The workflow would then be:
 - 1. Click where you want to make the cut (and your mouse y's coord at -40dB) with the "rectangular tool"
 
 
-Basically, it's like the pencil tool in logic, but the connection with sibling points is horizontal (creating steps if necessary because of the vertical offset),
+Basically, it's like the pencil tool in logic, but the connection with sibling points is always horizontal (creating steps if necessary because of the vertical offset with the siblings),
 and not a direct straight (and often oblique) line like the pencil tool does.
 
 
