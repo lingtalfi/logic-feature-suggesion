@@ -29,6 +29,7 @@ Here are the ideas you will find in this document:
 * [The :2 x2 buttons](#the-2-x2-buttons)
 * [The search plugin/instrument box](#the-search-plugininstrument-box)
 * [Favorite plugins list](#favorite-plugins-list)
+* [Pattern copy track instead of arrangement track](#pattern-copy-track-instead-of-arrangement-track)
 
 
 
@@ -91,6 +92,11 @@ The workflow would then be:
 
 Basically, it's like the pencil tool in logic, but the connection with sibling points is always horizontal (creating steps if necessary because of the vertical offset with the siblings),
 and not a direct straight (and often oblique) line like the pencil tool does.
+
+
+
+
+
 
 
 
@@ -244,6 +250,48 @@ I could have 2 or 50 favorites, that list should display all those favorites, an
 I know that in my case, that would be much more helpful than the list of recently used plugins.
 
  
+
+Pattern copy track instead of arrangement track
+----------------
+2020-07-22
+
+
+Although I believe logic is much more powerful than fruity loop, while watching a techno tutorial, the guest tutor, 
+which was using fruity loop, was using this nice little feature of fruity loop where he could just copy paste any pattern
+he had created before, thus making arranging a song a breeze.
+
+Made me think that this would be actually more efficient than the current "Arrangement track" that we have in logic,
+which is not very easy to manipulate when it comes to duplicating a section.
+
+
+So below is what I suggest should be a better alternative to the "arrangement track" in logic.
+
+
+At the top of the arrange window, just above the marker track for instance, we should have a "Pattern" track.
+There will be no "plus" button next to the label "Pattern". Instead, we can create pattern regions exactly as we create midi regions, 
+the only difference is that they have their own dedicated track at the top (when you open the global controls, shortcut=g).
+
+The benefit of this is that instead of clicking a plus button to add a section, we can create and POSITION the REGION WHERE WE WANT, so, more flexible than the arrangement sections.
+Once a region is created, whenever moved, everything under is moved along with, and again with the options of keep/split/shorten, or maybe with a default of "keep" mode.
+
+So the workflow then becomes this: I'm creating my techno song, I have 58 tracks,  and there is this section that I like, I want to duplicate it.
+
+With logic 10.5.1, I would have to use the the marquee ruler with copy/paste which is great, but the marquee ruler is very thin and therefore hard to operate, plus I have to drag, which makes it awkard,
+depending on my snap value I might not select the thing I want in the first time, and also, it's just copied in the buffer and I cannot re-use my copy for later.
+
+Well in the new logic, I could simply create a "pattern" region, and extend it at my own pace (no loosing mouse drag pressure), and then when satisfied with the region length, I can alt+click it to duplicate it
+(and all the content above will follow). 
+
+Plus, I can name it, for instance "cool vibe". And then later if I need that cool vibe again, it's already there, no more marquee ruler, and no need (at least for me) for an arrangement track.
+
+
+
+
+
+
+
+
+
 
 
  
