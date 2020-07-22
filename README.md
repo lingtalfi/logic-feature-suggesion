@@ -69,6 +69,11 @@ Currently, in logic 10.5.1, the fastest way I know of doing this is a workaround
 - 4. Then delete them to obtain the desired result
 
 
+Something like that:
+
+![c6](https://lingtalfi.com/img/logicpro-feature-request-screenshots/c6.png)
+
+
 Actually, with the alt behaviour of the pencil tool, we can to the first two steps in one click, but that's still three steps:
 
 - 1. Alt-click with the pencil tool where you want to create the cut
