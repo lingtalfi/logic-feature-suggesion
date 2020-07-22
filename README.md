@@ -285,6 +285,13 @@ Well in the new logic, I could simply create a "pattern" region, and extend it a
 Plus, I can name it, for instance "cool vibe". And then later if I need that cool vibe again, it's already there, no more marquee ruler, and no need (at least for me) for an arrangement track.
 
 
+Also, I believe that deleting the pattern region/container shouldn't (by default) delete the attached content.
+In other words, I would like to have the possibility to use those regions/container as a tool to move rapidly a delimited section of the arrangement, that's all.
+
+Maybe the behaviour could even be that when we move that region/container, it doesn't move the content below it, unless we use the alt modifier? Just a quick idea I just had.
+
+But the goal is nothing but being to move whole parts of the arrangement rapidly, and as a bonus in a re-usable manner.
+
 
 
 
