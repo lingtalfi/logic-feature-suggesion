@@ -299,6 +299,6 @@ Log
 ===========
 
 
-- 1.0.2: moved "Better arrangement track" to "Arrangement markers: free mode"
-- 1.0.1: moved "Pattern copy track instead of arrangement track" to "Better arrangement track"
-- 1.0.0:  initial commit
+- 1.0.2: 2020-07-28: moved "Better arrangement track" to "Arrangement markers: free mode"
+- 1.0.1: 2020-07-28: moved "Pattern copy track instead of arrangement track" to "Better arrangement track"
+- 1.0.0: 2020-07-22: initial commit
