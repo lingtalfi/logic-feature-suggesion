@@ -284,12 +284,13 @@ My current options are:
     and then either duplicate my **arrangement marker** to the right of that pivot/empty **arrangement marker**, or swap it.
     
 
-I prefer the second technique, because at least my selection is saved (in the form of an **arrangement marker**), and I can re-use it later,
-however I still need to create an unnecessary empty marker in order to accomplish a simple moving of a vertical section.
+I prefer the first one, but the problem is that I need to redo the marquee drag every time I want to move the section again (i.e. it's not stored in memory).
+
 
 Hence the need for the "free" mode, where **arrangement makers** can be not only moved anywhere, but also created from anywhere, just like midi regions.
 
-This "free" mode would really make the **arrangement markers** useful, at least for me, since I don't use the swap function that often, but I always need to move vertical sections around.
+This "free" mode would really make the **arrangement markers** useful and powerful, at least for me, since I don't use the swap function that often, but I always need to move vertical sections around.
+
 
  
  
