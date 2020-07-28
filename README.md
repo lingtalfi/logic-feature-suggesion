@@ -1,6 +1,6 @@
 Logic feature suggestions
 ===============
-2020-07-22
+2020-07-22 -> 2020-07-28
 
 
 
@@ -30,6 +30,7 @@ Here are the ideas you will find in this document:
 * [The search plugin/instrument box](#the-search-plugininstrument-box)
 * [Favorite plugins list](#favorite-plugins-list)
 * [Arrangement markers: free mode](#arrangement-markers-free-mode)
+* [Select vertical slice by region](#select-vertical-slice-by-region)
 
 
 
@@ -313,12 +314,49 @@ Instead, the user should have the option to set it once for all in the preferenc
 
  
  
+Select vertical slice by region
+------------
+2020-07-28
+
+
+When the user right clicks a midi/audio region, in the Select submenu, we should have an item that says:
+
+- select vertical slice with the selected region length 
+
+
+Well, this label has too many chars, but you get the idea: the user should be able to select a whole vertical section rapidly.
+
+Currently, to do so, I use the marquee ruler, but I sometimes struggle to nail the marquee selection with the mouse.
+
+If we had an option in the select menu, I would use it all the time to avoid the mouse selection struggle.
+
+
+To put it differently, if we look in the shortcuts, we currently have these options:
+
+- Cut Section Between Locators
+- Copy Section Between Locators
+- Repeat Section Between Locators
+
+
+Well, I just miss this one:
+
+- Select Section Between Locators
+
+because I just want to move it.
+
+"Cut Section Between Locators" is very close, but the content disappears, and then I need to place the playhead, 
+whereas for this particular case when all the regions are selected, I prefer to drag them where I want.
+
+
+
+ 
  
 
 Log
 ===========
 
 
+- 1.0.3: 2020-07-28: added "Select vertical slice by region" section
 - 1.0.2: 2020-07-28: moved "Better arrangement track" to "Arrangement markers: free mode"
 - 1.0.1: 2020-07-28: moved "Pattern copy track instead of arrangement track" to "Better arrangement track"
 - 1.0.0: 2020-07-22: initial commit
