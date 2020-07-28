@@ -29,7 +29,7 @@ Here are the ideas you will find in this document:
 * [The :2 x2 buttons](#the-2-x2-buttons)
 * [The search plugin/instrument box](#the-search-plugininstrument-box)
 * [Favorite plugins list](#favorite-plugins-list)
-* [Better arrangement track](#better-arrangement-track)
+* [Arrangement markers: free mode](#arrangement-markers-free-mode)
 
 
 
@@ -251,37 +251,54 @@ I know that in my case, that would be much more helpful than the list of recentl
 
  
 
-Better arrangement track
+Arrangement markers: free mode
 ----------------
 2020-07-22 -> 2020-07-28
 
 
-The arrangement track in logic is great.
-
-I can create **arrangement sections**.
-When I do so, then when I click the **suppr** key it deletes the content below it fine.
-
-To delete the **arrangement sections** without the content below it, I need to go on the left and go to "Suspend Content connection", then delete it.
-I believe it would be faster to have an option in the contextual menu when I right click on the **arrangement section**, or with the list of the common **arrangement section names**, after the rename option
-(when we left click the name of an **arrangement section**).
-
-Also, being able to create a section anywhere, like a midi region would make the arrangement track easier to work with.
-
-It's not rare that during the creation of a song I have some ideas that I write in logic, and then I just move them to the right, arbitrarily.
-I know I will use them later, but for now I don't need them.
-
-But then when I need them, it would be very convenient to be able to create an **arrangement section** directly where I want, or have at least an option to create an **arrangement section** between the locators,
-because then I would be able to re-use that section of the song rapidly.
-
-With the current system in logic, if I want to create a **arrangement section** for that bit on the right of my track, since **arrangement section** are contiguous, I need to
-add a **arrangement section** first, but then reposition its right and left boundaries. 
+The **arrangement markers** in logic are a great tool to quickly edit vertical sections of your project.
 
 
-If **arrangement sections** were not contiguous, that would solve the problem.
+The problem with the current arrangement markers is that it has only two operation modes:
+ 
+- the default "swap" mode, where you can swap **arrangement markers** with their siblings
+- suspend content connection mode, where basically **arrangement markers** are just markers/labels
+
+
+I believe a third mode would be very useful: the free mode.
+
+
+With the free mode, the **arrangement markers** can be placed anywhere: they don't have to be contiguous anymore.
+What this allows the user to do is have more power when editing the arrangement.
+
+While the "swap" mode is great once you have all your song parts ready, I personally spend most of my time building the song parts, and often, I encounter the need to quickly/temporarily
+move a section to the right, to make space to insert a new musical idea for instance.
+
+Moving a whole section to the right is a very common action in my workflow, and currently in logic I have to select them all before I can do that.
+
+My current options are:
+
+- either use the marquee tool ruler, but the problem with that is that I need to be very precise when dragging over the ruler, and then once I moved the selection, 
+    I cannot recall that selection for later
+- or I can use the **arrangement markers**, I can simply create an empty **arrangement marker** to the right of the **arrangement marker** I want to move, then extend it to make the space I need,
+    and then either duplicate my **arrangement marker** to the right of that pivot/empty **arrangement marker**, or swap it.
+    
+
+I prefer the second technique, because at least my selection is saved (in the form of an **arrangement marker**), and I can re-use it later,
+however I still need to create an unnecessary empty marker in order to accomplish a simple moving of a vertical section.
+
+Hence the need for the "free" mode, where **arrangement makers** can be not only moved anywhere, but also created from anywhere, just like midi regions.
+
+This "free" mode would really make the **arrangement markers** useful, at least for me, since I don't use the swap function that often, but I always need to move vertical sections around.
+
+ 
+ 
+ 
 
 Log
 ===========
 
 
+- 1.0.2: moved "Better arrangement track" to "Arrangement markers: free mode"
 - 1.0.1: moved "Pattern copy track instead of arrangement track" to "Better arrangement track"
 - 1.0.0:  initial commit
