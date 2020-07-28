@@ -269,7 +269,7 @@ I believe a third mode would be very useful: the free mode.
 
 
 With the free mode, the **arrangement markers** can be placed anywhere: they don't have to be contiguous anymore.
-What this allows the user to do is have more power when editing the arrangement.
+This allows the user to do is have more power when editing the arrangement.
 
 While the "swap" mode is great once you have all your song parts ready, I personally spend most of my time building the song parts, and often, I encounter the need to quickly/temporarily
 move a section to the right, to make space to insert a new musical idea for instance.
