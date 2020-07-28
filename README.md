@@ -119,7 +119,7 @@ In the above example I only had four points, but what if I have 100+ points, are
 (well if that's the case that's terrible, it should be fixed)
 
 
-The intuitive way to select those top four points would be to simply draw a rectangular selection around them, and that's what the **pointer** tool should be able to do (since logic should feel intuitive, right).  
+The intuitive way to select those top four points would be to simply draw a rectangular selection around them, and that's what the **pointer** tool should be able to do (since logic should feel intuitive, right?).  
 
 At least in automation mode, where precise editing becomes critical.
 
