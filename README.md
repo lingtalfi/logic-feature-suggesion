@@ -289,7 +289,15 @@ I prefer the first one, but the problem is that I need to redo the marquee drag 
 
 Hence the need for the "free" mode, where **arrangement makers** can be not only moved anywhere, but also created from anywhere, just like midi regions.
 
-This "free" mode would really make the **arrangement markers** useful and powerful, at least for me, since I don't use the swap function that often, but I always need to move vertical sections around.
+This "free" mode would really make the **arrangement markers** useful and powerful.
+
+
+Currently, I don't use the arrangement at all (maybe 0.5% of the time) because they can't be moved freely, and so from my perspective they aren't usable (I just don't use the feature).
+However, I always need to move vertical sections around (about 99.5% of the time), that's how useful "free" mode in **arrangement markers** would be for me.
+
+I see the potential in **arrangement markers**, I really hope this feature is implemented, as it would probably multiply by 10 the editing power of most logic users.
+
+
 
 
  
