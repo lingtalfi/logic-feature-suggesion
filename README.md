@@ -299,7 +299,16 @@ However, I see the potential in them: as I always need to move vertical sections
 
 I really hope this feature is implemented, as it would probably multiply by 10 the editing power of most logic users.
 
+And if you do implement this, please remove the popup that occurs when you swap **arrangement markers**, which ask: 
 
+![arrangement-marker-popup](https://lingtalfi.com/img/logicpro-feature-request-screenshots/arrangement-marker-popup.png)
+
+
+This is a waste of time, as this is a very common action to move vertical sections.
+
+Instead, the user should have the option to set it once for all in the preferences, something like:
+- ask always
+- ask never
 
 
  
