@@ -274,7 +274,7 @@ This allows the user to do is have more power when editing the arrangement.
 While the "swap" mode is great once you have all your song parts ready, I personally spend most of my time building the song parts, and often, I encounter the need to quickly/temporarily
 move a section to the right, to make space to insert a new musical idea for instance.
 
-Moving a whole section to the right is a very common action in my workflow, and currently in logic I have to select them all before I can do that.
+Moving a whole section to the right is a very common action in my workflow, and currently in logic the time it takes to select a vertical section takes too long.
 
 My current options are:
 
