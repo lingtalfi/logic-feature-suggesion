@@ -25,11 +25,11 @@ Here are the ideas you will find in this document:
 * [Snap automation toggling via cmd modifier](#snap-automation-toggling-via-cmd-modifier)
 * [Snap automation mode always visible at the top of the arrange window](#snap-automation-mode-always-visible-at-the-top-of-the-arrange-window)
 * [Merge snap automation values and regular snap values altogether](#merge-snap-automation-values-and-regular-snap-values-altogether)
-* [The instance capture audio button](#the-instance-capture-audio-button)
+* [The instant capture audio button](#the-instant-capture-audio-button) (if nothing else, this is the best feature to me)
 * [The :2 x2 buttons](#the-2-x2-buttons)
 * [The search plugin/instrument box](#the-search-plugininstrument-box)
 * [Favorite plugins list](#favorite-plugins-list)
-* [Pattern copy track instead of arrangement track](#pattern-copy-track-instead-of-arrangement-track)
+* [Better arrangement track](#better-arrangement-track)
 
 
 
@@ -167,9 +167,9 @@ Therefore, I suggest that we should have the option (in the preferences) to deci
 
 
 
-The instance capture audio button
+The instant capture audio button
 -----------
-2020-07-22
+2020-07-22 -> 2020-07-28
 
 
 That's my number one feature, that would totally be awesome if implemented.
@@ -251,65 +251,37 @@ I know that in my case, that would be much more helpful than the list of recentl
 
  
 
-Pattern copy track instead of arrangement track
+Better arrangement track
 ----------------
-2020-07-22
+2020-07-22 -> 2020-07-28
 
 
-Although I believe logic is much more powerful than fruity loop, while watching a techno tutorial, the guest tutor, 
-which was using fruity loop, was using this nice little feature of fruity loop where he could just copy paste any pattern
-he had created before, thus making arranging a song a breeze.
+The arrangement track in logic is great.
 
-Made me think that this would be actually more efficient than the current "Arrangement track" that we have in logic,
-which is not very easy to manipulate when it comes to duplicating a section.
+I can create **arrangement sections**.
+When I do so, then when I click the **suppr** key it deletes the content below it fine.
 
+To delete the **arrangement sections** without the content below it, I need to go on the left and go to "Suspend Content connection", then delete it.
+I believe it would be faster to have an option in the contextual menu when I right click on the **arrangement section**, or with the list of the common **arrangement section names**, after the rename option
+(when we left click the name of an **arrangement section**).
 
-So below is what I suggest should be a better alternative to the "arrangement track" in logic.
+Also, being able to create a section anywhere, like a midi region would make the arrangement track easier to work with.
 
+It's not rare that during the creation of a song I have some ideas that I write in logic, and then I just move them to the right, arbitrarily.
+I know I will use them later, but for now I don't need them.
 
-At the top of the arrange window, just above the marker track for instance, we should have a "Pattern" track.
-There will be no "plus" button next to the label "Pattern". Instead, we can create pattern regions exactly as we create midi regions, 
-the only difference is that they have their own dedicated track at the top (when you open the global controls, shortcut=g).
+But then when I need them, it would be very convenient to be able to create an **arrangement section** directly where I want, or have at least an option to create an **arrangement section** between the locators,
+because then I would be able to re-use that section of the song rapidly.
 
-The benefit of this is that instead of clicking a plus button to add a section, we can create and POSITION the REGION WHERE WE WANT, so, more flexible than the arrangement sections.
-Once a region is created, whenever moved, everything under is moved along with, and again with the options of keep/split/shorten, or maybe with a default of "keep" mode.
-
-So the workflow then becomes this: I'm creating my techno song, I have 58 tracks,  and there is this section that I like, I want to duplicate it.
-
-With logic 10.5.1, I would have to use the the marquee ruler with copy/paste which is great, but the marquee ruler is very thin and therefore hard to operate, plus I have to drag, which makes it awkard,
-depending on my snap value I might not select the thing I want in the first time, and also, it's just copied in the buffer and I cannot re-use my copy for later.
-
-Well in the new logic, I could simply create a "pattern" region, and extend it at my own pace (no loosing mouse drag pressure), and then when satisfied with the region length, I can alt+click it to duplicate it
-(and all the content above will follow). 
-
-Plus, I can name it, for instance "cool vibe". And then later if I need that cool vibe again, it's already there, no more marquee ruler, and no need (at least for me) for an arrangement track.
+With the current system in logic, if I want to create a **arrangement section** for that bit on the right of my track, since **arrangement section** are contiguous, I need to
+add a **arrangement section** first, but then reposition its right and left boundaries. 
 
 
-Also, I believe that deleting the pattern region/container shouldn't (by default) delete the attached content.
-In other words, I would like to have the possibility to use those regions/container as a tool to move rapidly a delimited section of the arrangement, that's all.
+If **arrangement sections** were not contiguous, that would solve the problem.
 
-Maybe the behaviour could even be that when we move that region/container, it doesn't move the content below it, unless we use the alt modifier? Just a quick idea I just had.
-
-But the goal is nothing but being to move whole parts of the arrangement rapidly, and as a bonus in a re-usable manner.
+Log
+===========
 
 
-
-
-
-
-
-
-
-
- 
-
-
-
- 
-
-
-
-
-
-
-
+- 1.0.1: moved "Pattern copy track instead of arrangement track" to "Better arrangement track"
+- 1.0.0:  initial commit
