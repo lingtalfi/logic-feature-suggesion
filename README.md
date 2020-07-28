@@ -293,9 +293,11 @@ This "free" mode would really make the **arrangement markers** useful and powerf
 
 
 Currently, I don't use the arrangement at all (maybe 0.5% of the time) because they can't be moved freely, and so from my perspective they aren't usable (I just don't use the feature).
-However, I always need to move vertical sections around (about 99.5% of the time), that's how useful "free" mode in **arrangement markers** would be for me.
 
-I see the potential in **arrangement markers**, I really hope this feature is implemented, as it would probably multiply by 10 the editing power of most logic users.
+
+However, I see the potential in them: as I always need to move vertical sections around (about 99.5% of the time), that's how useful "free" mode in **arrangement markers** would be for me.
+
+I really hope this feature is implemented, as it would probably multiply by 10 the editing power of most logic users.
 
 
 
