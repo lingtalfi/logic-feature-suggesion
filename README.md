@@ -20,6 +20,7 @@ Here are the ideas you will find in this document:
 
 
 * [The rectangular tool](#the-rectangular-tool)
+* [Rectangular selection in automation mode](#rectangular-selection-in-automation-mode)
 * [Automation grid](#automation-grid)
 * [Entering automation value manually with an input box](#entering-automation-value-manually-with-an-input-box)
 * [Snap automation toggling via cmd modifier](#snap-automation-toggling-via-cmd-modifier)
@@ -97,7 +98,30 @@ and not a direct straight (and often oblique) line like the pencil tool does.
 
 
 
+Rectangular selection in automation mode
+--------------
+2020-07-28
 
+
+So let's say I have this saw-like automation:
+
+![rectangular-selection-automation-mode](https://lingtalfi.com/img/logicpro-feature-request-screenshots/rectangular-selection-automation-mode.png)
+
+
+Now I want to select only the top four points, to make them higher.
+
+
+It's hard in the current version of logic, because both the pointer tool, and the marquee tool both select a vertical slice, so with those two tools, I can't just
+draw a quick rectangle and get away with it; instead I need to shift-select them one by one.
+ 
+In the above example I only had four points, but what if I have 100+ points, are you allowing that there is no tool in logic to select those points, apart from shift-clicking them?
+
+(well if that's the case that's terrible, it should be fixed)
+
+
+The intuitive way to select those top four points would be to simply draw a rectangular selection around them, and that's what the **pointer** tool should be able to do (since logic should feel intuitive, right).  
+
+At least in automation mode, where precise editing becomes critical.
 
 
 
@@ -356,6 +380,7 @@ Log
 ===========
 
 
+- 1.0.4: 2020-07-28: added "Rectangular selection in automation mode" section
 - 1.0.3: 2020-07-28: added "Select vertical slice by region" section
 - 1.0.2: 2020-07-28: moved "Better arrangement track" to "Arrangement markers: free mode"
 - 1.0.1: 2020-07-28: moved "Pattern copy track instead of arrangement track" to "Better arrangement track"
