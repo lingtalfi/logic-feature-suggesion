@@ -301,7 +301,7 @@ I really hope this feature is implemented, as it would probably multiply by 10 t
 
 And if you do implement this, please remove the popup that occurs when you swap **arrangement markers**, which ask: 
 
-![arrangement-marker-popup](https://lingtalfi.com/img/logicpro-feature-request-screenshots/arrangement-marker-popup.png)
+![arrangement-marker-popup](https://lingtalfi.com/img/logicpro-feature-request-screenshots/arrangement-marker-popup2.png)
 
 
 This is a waste of time, as this is a very common action to move vertical sections.
