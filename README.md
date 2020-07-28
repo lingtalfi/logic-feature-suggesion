@@ -287,7 +287,7 @@ My current options are:
 I prefer the first one, but the problem is that I need to redo the marquee drag every time I want to move the section again (i.e. it's not stored in memory).
 
 
-Hence the need for the "free" mode, where **arrangement makers** can be not only moved anywhere, but also created from anywhere, just like midi regions.
+Hence, the need for the "free" mode, where **arrangement makers** can be not only moved anywhere, but also created from anywhere, just like midi regions.
 
 This "free" mode would really make the **arrangement markers** useful and powerful.
 
