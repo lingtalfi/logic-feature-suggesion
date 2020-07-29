@@ -177,7 +177,7 @@ So, having the option to show the snap automation mode menu at the top of the "a
 
 Merge snap automation values and regular snap values altogether
 ----------
-2020-07-22
+2020-07-22 -> 2020-07-29
 
 
 I've never seen myself consciously wanting a snap automation value that's different from the snap value.
@@ -185,6 +185,14 @@ I've never seen myself consciously wanting a snap automation value that's differ
 I understand that other users might find this useful, but for me it's two decisions to make where only one was necessary.
 
 Therefore, I suggest that we should have the option (in the preferences) to decide whether those two types of snap values are linked or not.
+
+
+Another reason why this might be a good idea is that it's hard in logic to find keyboard shortcuts that aren't used, because there are so many of them.
+So it was hard, but I managed to set my shortcuts for switching the snap value between bar, beat and division (since I switch constantly between them), and also shortcuts for switching
+between snap to absolute/relative value, since I also use them a all the time. But now if I had to set new shortcuts for the automation snap value,
+first of all it would eat even more shortcuts (which is expensive since there are so few left), and then it would be harder to remember all those shortcuts.
+
+So merging the snap automation values with the snap values would really be beneficial for my case.  
 
 
 
