@@ -1,6 +1,6 @@
 Logic feature suggestions
 ===============
-2020-07-22 -> 2020-07-28
+2020-07-22 -> 2020-07-29
 
 
 
@@ -388,6 +388,7 @@ Log
 ===========
 
 
+- 1.0.5: 2020-07-29: update "Merge snap automation values and regular snap values altogether" section
 - 1.0.4: 2020-07-28: added "Rectangular selection in automation mode" section
 - 1.0.3: 2020-07-28: added "Select vertical slice by region" section
 - 1.0.2: 2020-07-28: moved "Better arrangement track" to "Arrangement markers: free mode"
