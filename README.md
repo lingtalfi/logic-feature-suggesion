@@ -1,6 +1,6 @@
 Logic feature suggestions
 ===============
-2020-07-22 -> 2020-07-29
+2020-07-22 -> 2020-08-05
 
 
 
@@ -32,6 +32,7 @@ Here are the ideas you will find in this document:
 * [Favorite plugins list](#favorite-plugins-list)
 * [Arrangement markers: free mode](#arrangement-markers-free-mode)
 * [Select vertical slice by region](#select-vertical-slice-by-region)
+* [Extend audio region length like midi region](#extend-audio-region-length-like-midi-region)
 
 
 
@@ -43,6 +44,8 @@ Every second counts.
 I believe implementing the ideas below in logic will greatly enhance the editing power of the users.
 
 Cheers.
+
+
 
 
 
@@ -378,6 +381,48 @@ because I just want to move it.
 
 "Cut Section Between Locators" is very close, but the content disappears, and then I need to place the playhead, 
 whereas for this particular case when all the regions are selected, I prefer to drag them where I want.
+
+
+
+
+
+
+Extend audio region length like midi region
+-------------
+2020-08-05
+
+
+One of the feature I like in logic is the ability to drag the top right corner of a midi region to make it loop.
+Very convenient.
+
+Before we can loop a midi region though, we sometimes need to resize the midi region.
+It's easy to do so, just drag the bottom right or bottom left of the midi region to extend it to where you want.
+
+Once it has the desired length (often a perfect bar), then drag-loop it, cool.
+
+I wish the workflow with audio regions would be exactly the same, unfortunately it's not in logic 10.5.1.
+
+Instead, when an audio region is short, because the sample it contains is short, we can't easily extend the region's length
+to our likings.
+That sucks, because then we cannot easily loop it.
+
+I would love to be able to just drag the bottom corner of an audio region to extend it, just as a midi region behaves.
+And of course, the extended space where there is no concrete audio content should be fill with silence.
+
+Simple idea, but yet to organize the patterns in a song, it makes it much more consistent, intuitive, and therefore 
+efficient to work with.
+
+
+
+
+
+
+
+
+
+
+ 
+
 
 
 
