@@ -19,20 +19,29 @@ which is pretty low, and so I prefer to put my ideas here in a separate file, wh
 Here are the ideas you will find in this document:
 
 
-* [The rectangular tool](#the-rectangular-tool)
-* [Rectangular selection in automation mode](#rectangular-selection-in-automation-mode)
-* [Automation grid](#automation-grid)
-* [Entering automation value manually with an input box](#entering-automation-value-manually-with-an-input-box)
-* [Snap automation toggling via cmd modifier](#snap-automation-toggling-via-cmd-modifier)
-* [Snap automation mode always visible at the top of the arrange window](#snap-automation-mode-always-visible-at-the-top-of-the-arrange-window)
-* [Merge snap automation values and regular snap values altogether](#merge-snap-automation-values-and-regular-snap-values-altogether)
-* [The instant capture audio button](#the-instant-capture-audio-button) (if nothing else, this is the best feature to me)
-* [The :2 x2 buttons](#the-2-x2-buttons)
-* [The search plugin/instrument box](#the-search-plugininstrument-box)
-* [Favorite plugins list](#favorite-plugins-list)
-* [Arrangement markers: free mode](#arrangement-markers-free-mode)
-* [Select vertical slice by region](#select-vertical-slice-by-region)
-* [Extend audio region length like midi region](#extend-audio-region-length-like-midi-region)
+
+
+- General 
+    - [The instant capture audio button](#the-instant-capture-audio-button) (if nothing else, this is the best feature to me)
+- Piano roll    
+    - [The :2 x2 buttons](#the-2-x2-buttons)
+- Channel strip
+    - [Favorite plugins list](#favorite-plugins-list)
+    - [The search plugin/instrument box](#the-search-plugininstrument-box)
+- Arrangement window
+    - [Arrangement markers: free mode](#arrangement-markers-free-mode)
+    - [Select vertical slice by region](#select-vertical-slice-by-region)
+    - [Snap automation mode always visible at the top of the arrange window](#snap-automation-mode-always-visible-at-the-top-of-the-arrange-window)
+    - [Snap automation toggling via cmd modifier](#snap-automation-toggling-via-cmd-modifier)
+- Audio region
+    - [Extend audio region length like midi region](#extend-audio-region-length-like-midi-region)
+- Automation
+    - [The rectangular tool](#the-rectangular-tool)
+    - [Rectangular selection in automation mode](#rectangular-selection-in-automation-mode)
+    - [Merge snap automation values and regular snap values altogether](#merge-snap-automation-values-and-regular-snap-values-altogether)
+    - [Entering automation value manually with an input box](#entering-automation-value-manually-with-an-input-box)
+    - [Automation grid](#automation-grid)
+    - [Automation shape tools](#automation-shape-tools)
 
 
 
@@ -419,6 +428,67 @@ efficient to work with.
 
 
 
+Automation shape tools
+-----------
+2020-08-05
+
+
+So let's say I want to create a sine form automation pattern.
+
+Of course you could say, why not use a midiFX Modulator, but the problem with that approach is that we cannot do exceptions:
+for instance what if I want to have a sine wave shape for the first 3 beats, but then a custom shape for the 4th beat.
+
+So having the automation written down, you have the full control over the sound, so I prefer the automation approach.
+
+
+So to create a sine wave form, here is a quick try with current logic 10.5.1: I start with making the automation line appear:
+
+![automation-shape-tool-a](https://lingtalfi.com/img/logicpro-feature-request-screenshots/automation-shape-tool-a.png)
+
+
+Then I will draw a basic saw tooth form:
+
+![automation-shape-tool-b](https://lingtalfi.com/img/logicpro-feature-request-screenshots/automation-shape-tool-b.png)
+
+
+Then with the automation curve tool, I try to bend the lines to make it look like a sine wave:
+
+![automation-shape-tool-c](https://lingtalfi.com/img/logicpro-feature-request-screenshots/automation-shape-tool-c.png)
+
+
+We can see how hard it is for a human to make a perfect sine wave, and even if it probably doesn't matter too much, 
+my sine wave is far from perfect in the above example.
+
+Therefore, it leads me to this suggestion: we should have automation shape tools for the basic shapes.
+
+We already have lines and we create dots anywhere, and we can bend the lines, that's cool.
+
+But it would be even better if we had:
+
+- a step shape (see my [rectangular tool idea](the-rectangular-tool))
+- a sine wave shape
+- a saw tooth wave shape
+- a square wave shape
+
+The idea with the three latter shapes is that with the mouse you drag a horizontal line, and the tool automatically contains an arbitrary number of shapes.
+
+Like in adobe illustrator when you create a spiral, while we are holding the mouse (dragging the horizontal line), we can increase/decrease the number of shape repetitions
+by tapping the up and down arrow keys. Note that those shortcuts only work while you are dragging with the mouse.
+
+The height and lenght of the overall pattern is defined by the imaginary rectangle selection made by the mouse (where the height of that rectangle is the amplitude
+of the shape, and the length is the total length of the container containing the x repetitions of that shape). 
+ 
+ 
+ 
+Then I also believe a flatterner tool would be welcome, as an alternative to the eraser.
+
+- flattener tool
+
+With the flattener tool, when we start dragging, anything inside the dragged zone (left and right boundaries of the imaginary rectangle selection made by the mouse) is at level 0.
+
+This means that probably at the left and right boundaries, a straight vertical cut is made (i.e. points are created if necessary)
+
+This flattener tool would help inserting custom shapes in the middle of other shapes, such as the shapes described above
 
 
  
@@ -433,6 +503,8 @@ Log
 ===========
 
 
+- 1.0.7: 2020-08-05: add "Automation shape tools" idea
+- 1.0.6: 2020-08-05: add "Extend audio region length like midi region" idea
 - 1.0.5: 2020-07-29: update "Merge snap automation values and regular snap values altogether" section
 - 1.0.4: 2020-07-28: added "Rectangular selection in automation mode" section
 - 1.0.3: 2020-07-28: added "Select vertical slice by region" section
