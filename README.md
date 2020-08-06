@@ -1,6 +1,6 @@
 Logic feature suggestions
 ===============
-2020-07-22 -> 2020-08-05
+2020-07-22 -> 2020-08-06
 
 
 
@@ -42,6 +42,7 @@ Here are the ideas you will find in this document:
     - [Entering automation value manually with an input box](#entering-automation-value-manually-with-an-input-box)
     - [Automation grid](#automation-grid)
     - [Automation shape tools](#automation-shape-tools)
+    - [Pointer tool and automation](#pointer-tool-and-automation)
 
 
 
@@ -494,7 +495,34 @@ This flattener tool would help inserting custom shapes in the middle of other sh
  
 
 
+Pointer tool and automation
+-----------
+2020-08-06
 
+
+When working in automation mode in the arrangement window, I find the current pointer tool a little clumsy to work with.
+
+Because the rules that defines its behaviour seem a little illogical, hence not very intuitive.
+
+For instance, with the pointer tool, if I click shortly on a line, it creates a new point on the line, but if click and hold (more than
+let's say 100ms) on the line, then it just selects the segment. That's not consistent.
+
+Then to remove a point, I need to double-click, and double-clicking feels always clumsy, especially for precision work like that.
+
+Therefore I suggest the following:
+
+- the pointer tool by default should only be used to select things (it doesn't create or remove point)
+- the double-click behaviour of the pointer tool might be removed (although some users might like it)
+- the pencil tool shall be used rather to create points
+- with the pointer tool and the alt modifier, we can create points anywhere (i.e. on the line or not on the line, like the pencil tool)
+- with the pointer tool and the alt modifier, if the point we are about to create will be on the line, the user should be aware of it (maybe a color change of the line, or of the cursor, to indicate that the point will be added on the line)
+- with the pointer tool and the alt modifier, the vertical line should appear, to help positioning the automation point
+- with the pointer tool and the alt modifier, and the shift modifier, the vertical line should snap to the current snap automation value
+- with the pointer tool and the alt modifier, and the shift modifier, the up/down arrow keys should set the snap automation value to the prev/next value in the snap automation list (which by the way should be visible at the top of the arrangement window)
+
+So to sum up, I believe that having the alt modifier to make creation of points via the pointer tool will ultimately feel less clumsy than the double-clicking behaviour, 
+and more consistent, as it will be harder to create an automation point by accident with that behaviour.
+ 
 
  
  
@@ -503,6 +531,7 @@ Log
 ===========
 
 
+- 1.0.8: 2020-08-09: add "Pointer tool and automation" idea
 - 1.0.7: 2020-08-05: add "Automation shape tools" idea
 - 1.0.6: 2020-08-05: add "Extend audio region length like midi region" idea
 - 1.0.5: 2020-07-29: update "Merge snap automation values and regular snap values altogether" section
