@@ -35,6 +35,7 @@ Here are the ideas you will find in this document:
     - [Snap automation toggling via cmd modifier](#snap-automation-toggling-via-cmd-modifier)
 - Audio region
     - [Extend audio region length like midi region](#extend-audio-region-length-like-midi-region)
+    - [Slice at transient markers should be first class citizen](#slice-at-transient-markers-should-be-first-class-citizen)
 - Automation
     - [The rectangular tool](#the-rectangular-tool)
     - [Rectangular selection in automation mode](#rectangular-selection-in-automation-mode)
