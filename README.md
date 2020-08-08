@@ -1,6 +1,6 @@
 Logic feature suggestions
 ===============
-2020-07-22 -> 2020-08-06
+2020-07-22 -> 2020-08-08
 
 
 
@@ -43,6 +43,7 @@ Here are the ideas you will find in this document:
     - [Automation grid](#automation-grid)
     - [Automation shape tools](#automation-shape-tools)
     - [Pointer tool and automation](#pointer-tool-and-automation)
+    - [Duplicate automation should snap to grid](#duplicate-automation-should-snap-to-grid)
 
 
 
@@ -54,10 +55,6 @@ Every second counts.
 I believe implementing the ideas below in logic will greatly enhance the editing power of the users.
 
 Cheers.
-
-
-
-
 
 
 
@@ -525,12 +522,37 @@ and more consistent, as it will be harder to create an automation point by accid
  
 
  
+
+
+Duplicate automation should snap to grid
+------------
+2020-08-08
+
+
+When in automation mode in the arrangement window, I've created an automation pattern that I would like to duplicate and
+snap to a certain beat in my region (this automation pattern needs to be applied at a very specific moment in time).
+
+So I select my pattern with the selection tool, and alt click to duplicate, then drag the mouse to move the duplicated pattern
+where I want. Unfortunately, the pattern doesn't seem to snap to any snap grid defined. So this is imprecise, and clumsy, as I can never
+have the precision I want with a free mouse drag. 
+
+So I suggest that the when duplicating an automation pattern with the alt modifier and the mouse, the pattern should snap to the defined snap value.
+
+
+Note: a workaround I found around this is to set my snap value to bar, then marquee select the whole automation pattern, and cmd+R (repeat) it,
+that's fine, but still I believe that the duplicate via alt-click should stick to snap values (because I don't see why not).
+ 
+ 
+
+
+
  
 
 Log
 ===========
 
 
+- 1.0.8: 2020-08-09: add "Duplicate automation should snap to grid" idea
 - 1.0.8: 2020-08-09: add "Pointer tool and automation" idea
 - 1.0.7: 2020-08-05: add "Automation shape tools" idea
 - 1.0.6: 2020-08-05: add "Extend audio region length like midi region" idea
