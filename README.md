@@ -546,13 +546,37 @@ that's fine, but still I believe that the duplicate via alt-click should stick t
 
 
 
+Slice at transient markers should be first class citizen
+-----------
+2020-08-08
+
+
+When doing sound design, a very useful feature to have it to be able to slice an audio region into slices, each slice starting at a transient marker.
+
+Fortunately, logic 10.5.1 has this feature available, but unfortunately, it's quite deep: you have to turn on flex, then make your track flex, then only do you have the 
+contextual menu that gives the "Slice at transient markers" option.
+
+In sound design, it's always good to be very efficient at doing things, as the mind is in a "creative mode" and doesn't need to be distracted with unnecessary mouse clicks and gui design problems.
+
+That's why I suggest that this handy feature should be available for every audio region, regardless of whether flex is active.
+
+Of course, under the hood, logic would still use the "flex engine" with default values (which is generally good enough), but that would be transparent to the user,
+and so with that feature the user can slice instantly his audio regions, and keep his workflow, keeping the focus on sound design.
+
+
+
+
+
+
+
  
 
 Log
 ===========
 
 
-- 1.0.8: 2020-08-09: add "Duplicate automation should snap to grid" idea
+- 1.0.10: 2020-08-09: add "Slice at transient markers should be first class citizen" idea
+- 1.0.9: 2020-08-09: add "Duplicate automation should snap to grid" idea
 - 1.0.8: 2020-08-09: add "Pointer tool and automation" idea
 - 1.0.7: 2020-08-05: add "Automation shape tools" idea
 - 1.0.6: 2020-08-05: add "Extend audio region length like midi region" idea
