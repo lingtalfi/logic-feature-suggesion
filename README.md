@@ -540,7 +540,7 @@ So I suggest that the when duplicating an automation pattern with the alt modifi
 
 
 Note: a workaround I found around this is to set my snap value to bar, then marquee select the whole automation pattern, and cmd+R (repeat) it,
-that's fine, but still I believe that the duplicate via alt-click should stick to snap values (because I don't see why not).
+that's fine, but still I believe that the duplicate via alt-click should stick to the current snap value (because I don't see why not).
  
  
 
