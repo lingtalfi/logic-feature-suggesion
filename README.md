@@ -1,6 +1,6 @@
 Logic feature suggestions
 ===============
-2020-07-22 -> 2020-08-08
+2020-07-22 -> 2020-08-11
 
 
 
@@ -45,6 +45,8 @@ Here are the ideas you will find in this document:
     - [Automation shape tools](#automation-shape-tools)
     - [Pointer tool and automation](#pointer-tool-and-automation)
     - [Duplicate automation should snap to grid](#duplicate-automation-should-snap-to-grid)
+- Drum machine designer
+    - [duplicate dmd cells](#duplicate-dmd-cells)
 
 
 
@@ -56,7 +58,6 @@ Every second counts.
 I believe implementing the ideas below in logic will greatly enhance the editing power of the users.
 
 Cheers.
-
 
 
 
@@ -568,6 +569,24 @@ and so with that feature the user can slice instantly his audio regions, and kee
 
 
 
+Duplicate dmd cells
+-----------
+2020-08-11
+
+
+I'm following this tutorial where the tutor in ableton just duplicates the cells of the drum rack (which is the equivalent
+of drum machine designer but in ableton).
+
+The reason he does that is to create quick envelope variations on the copies, thus giving him more nuances for a given sample.
+
+That's a pretty good reason to be able to duplicate cells, as it's musically useful.
+
+Unfortunately in logic 10.5.1, when I alt-click a cell with the intent of duplicating it to another (empty) one, it does not duplicate the cell.
+
+
+I suggest that alt-click should allow us to duplicate dmd cells, rather than having to go back to the finder and reload that same sample from there (which takes much longer).
+
+
 
 
  
@@ -576,6 +595,7 @@ Log
 ===========
 
 
+- 1.0.11: 2020-08-11: add "Duplicate dmd cells" idea
 - 1.0.10: 2020-08-09: add "Slice at transient markers should be first class citizen" idea
 - 1.0.9: 2020-08-09: add "Duplicate automation should snap to grid" idea
 - 1.0.8: 2020-08-09: add "Pointer tool and automation" idea
