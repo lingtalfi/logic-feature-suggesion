@@ -23,6 +23,7 @@ Here are the ideas you will find in this document:
 
 - General 
     - [The instant capture audio button](#the-instant-capture-audio-button) (if nothing else, this is the best feature to me)
+    - [Loop icon should be available to the left side of the regions too](#loop-icon-should-be-available-to-the-left-side-of-the-regions-too)
 - Piano roll    
     - [The :2 x2 buttons](#the-2-x2-buttons)
 - Channel strip
@@ -630,6 +631,19 @@ Note: I believe this one has been a thorn in the side of Logic for a long time, 
 
 
  
+Loop icon should be available to the left side of the regions too
+-----------------
+2020-08-12
+
+
+It's very convenient to have this loop icon on the right of the regions to make a loop quickly.
+However, sometimes I find myself needing to extend the loop to the left of the region rather than to the right, 
+but logic doesn't allow that yet, so I need to drag the region to the left, and then re-cut the loop where I want it to end (since moving the region
+to the left will generally move the end point with it).
+
+It would be faster to just be able to extend the loop to the left side, so that's my feature suggestion. 
+
+
 
 
 
@@ -680,6 +694,7 @@ Log
 ===========
 
 
+- 1.0.12: 2020-08-12: add "Loop icon should be available to the left side of the regions too" idea
 - 1.0.12: 2020-08-12: add "Drum machine designer bugs" bug
 - 1.0.12: 2020-08-12: add "Being able to arrange the order of channel strips" idea
 - 1.0.11: 2020-08-11: add "Duplicate dmd cells" idea
