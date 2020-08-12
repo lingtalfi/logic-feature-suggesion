@@ -1,6 +1,6 @@
 Logic feature suggestions
 ===============
-2020-07-22 -> 2020-08-11
+2020-07-22 -> 2020-08-12
 
 
 
@@ -47,6 +47,8 @@ Here are the ideas you will find in this document:
     - [Duplicate automation should snap to grid](#duplicate-automation-should-snap-to-grid)
 - Drum machine designer
     - [duplicate dmd cells](#duplicate-dmd-cells)
+- Mixer
+    - [Being able to arrange the order of channel strips](#being-able-to-arrange-the-order-of-channel-strips)
 
 
 
@@ -589,12 +591,49 @@ I suggest that alt-click should allow us to duplicate dmd cells, rather than hav
 
 
 
+
+Being able to arrange the order of channel strips
+------------
+2020-08-12
+
  
+As we add tracks on a song, it's important to keep things organized.
+One way to do this is assigning colors to tracks.
+
+Another is bus grouping (re-assigning the output of some tracks to a bus, thus grouping them).
+
+Since logic already has this color feature, it makes no sense to me that logic doesn't let the user re-arrange
+the channel strip order.
+
+Since we are able to create those bus groups, we should be able to place them where we want in the mixer.
+I personally like my groups to be on the right, but in an order I decide.
+For instance, sometimes I like to create a "premaster" bus, which basically takes the input of all my tracks.
+Then later if I decide to group my drums into a "drum bus", logic will put it on the right of my "premaster" bus, which doesn't make sense, visually.
+
+Same reason why the "Stereo Out" channel strip is always on the far right, I want my "premaster" bus to be on the far right, on the very left of the "Stereo Out",
+but logic 10.5.1 won't let me do that. Instead, it will put my lastly created bus on the right of all the bus I created, as if I could predict the future (which I can't obviously).
+
+So this is a real pain and limitation to not even have the ability to re-arrange the strip channels order.
+
+Logic is not flexible in that regard, and therefore I suggest this feature, where we can simply drag (with the mouse) channel strip
+wherever we want, in the mixer window only (it shouldn't impact the environment view at all).
+
+
+Note: I believe this one has been a thorn in the side of Logic for a long time, and should be fixed asap.  
+
+
+ 
+
+
+
+
+
 
 Log
 ===========
 
 
+- 1.0.12: 2020-08-12: add "Being able to arrange the order of channel strips" idea
 - 1.0.11: 2020-08-11: add "Duplicate dmd cells" idea
 - 1.0.10: 2020-08-09: add "Slice at transient markers should be first class citizen" idea
 - 1.0.9: 2020-08-09: add "Duplicate automation should snap to grid" idea
