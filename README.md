@@ -52,6 +52,13 @@ Here are the ideas you will find in this document:
 
 
 
+And some bugs I found:
+
+
+- [Drum machine designer bugs](#drum-machine-designer-bugs)
+
+
+
 
 As I like to say, editing is a constraint, we, logic users, just want to be the most efficient possible at editing, 
 so that implementing a musical idea is easy and intuitive, and is not a painful process.
@@ -627,12 +634,53 @@ Note: I believe this one has been a thorn in the side of Logic for a long time, 
 
 
 
+Bugs
+==========
+2020-08-12
+
+
+
+Drum machine designer bugs
+---------
+2020-08-12
+
+
+### Bug1: cannot set the dmd on a track inside a folder stack
+2020-08-12 
+ 
+Let's say I have a folder stack with a few tracks in it.
+Now if I create a new software instrument track and put it inside this folder, the "drum machine designer" instrument is disabled.
+
+I believe that's a bug, because if I move this track out of the folder stack, not only the "drum machine designer" instrument is now enabled,
+but now I can move it back into the folder stack.
+
+So in the end, I still have my dmd instrument track inside the folder stack, so why not just allow its creation directly when the track is inside
+a folder stack? (it sounds like a bug to me).
+
+
+
+### Bug2: cannot change instrument when a dmd is set
+2020-08-12 
+
+
+Not sure if that's a bug, but it looks like it:
+when I set a dmd instrument on a track, then I cannot change to another instrument, because in the (channel strip?) inspector the blue rectangle holding
+the dmd name doesn't have the disclosure triangle next to it.
+
+If it's not a bug, then I suggest that the user should be able to switch instrument no matter what instrument is set in the track/channel strip.
+
+
+
+
+
+
 
 
 Log
 ===========
 
 
+- 1.0.12: 2020-08-12: add "Drum machine designer bugs" bug
 - 1.0.12: 2020-08-12: add "Being able to arrange the order of channel strips" idea
 - 1.0.11: 2020-08-11: add "Duplicate dmd cells" idea
 - 1.0.10: 2020-08-09: add "Slice at transient markers should be first class citizen" idea
