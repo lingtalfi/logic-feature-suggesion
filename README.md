@@ -1,6 +1,6 @@
 Logic feature suggestions
 ===============
-2020-07-22 -> 2020-08-12
+2020-07-22 -> 2020-08-15
 
 
 
@@ -50,6 +50,7 @@ Here are the ideas you will find in this document:
     - [duplicate dmd cells](#duplicate-dmd-cells)
 - Mixer
     - [Being able to arrange the order of channel strips](#being-able-to-arrange-the-order-of-channel-strips)
+    - [Creating mixing groups](#creating-mixing-groups)
 
 
 
@@ -57,8 +58,6 @@ And some bugs I found:
 
 
 - [Drum machine designer bugs](#drum-machine-designer-bugs)
-
-
 
 
 As I like to say, editing is a constraint, we, logic users, just want to be the most efficient possible at editing, 
@@ -646,6 +645,41 @@ It would be faster to just be able to extend the loop to the left side, so that'
 
 
 
+Creating mixing groups
+-------------
+2020-08-15
+
+
+I've just seen this feature in fruity loop, video "Setup" from this tutorial: https://www.sonicacademy.com/courses/uplifting-trance-2019-with-james-dymond,
+
+where the tutor just goes into the mixer, select 4 channel strips, right click and select the "dock to the right" item, and it creates this nice separation between
+the channel strips in the mixer.
+
+![fruity-mixer-dock](https://lingtalfi.com/img/logicpro-feature-request-screenshots/fruity-mixer-dock-right.png)
+
+
+So this made me think about custom mixer organization in general. 
+
+I believe organization in the mixer is something the user should be able to do (same as re-arranging the tracks order in the arrange window).
+
+I suggest this feature where the user is able to create mixer groups by selecting a number of channel strips (in the mixer window), and right click "create mixer group".
+
+The group shall be visually delimited by some obvious boundaries, so that the user can easily see a group as such.
+We should also be able to change the background color of the group, to make that visual separation even more obvious.
+Also, we shall be able to drag and reposition the group horizontally to change its position in the mixer window, just like we should be able to do
+for any channel strips (see my ["Being able to arrange the order of channel strips" idea](#being-able-to-arrange-the-order-of-channel-strips) for more details on that).
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 Bugs
@@ -694,6 +728,7 @@ Log
 ===========
 
 
+- 1.0.13: 2020-08-15: add "Creating mixing groups" idea
 - 1.0.12: 2020-08-12: add "Loop icon should be available to the left side of the regions too" idea
 - 1.0.12: 2020-08-12: add "Drum machine designer bugs" bug
 - 1.0.12: 2020-08-12: add "Being able to arrange the order of channel strips" idea
