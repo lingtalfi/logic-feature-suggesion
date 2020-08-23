@@ -1,6 +1,6 @@
 Logic feature suggestions
 ===============
-2020-07-22 -> 2020-08-15
+2020-07-22 -> 2020-08-23
 
 
 
@@ -26,6 +26,7 @@ Here are the ideas you will find in this document:
     - [Loop icon should be available to the left side of the regions too](#loop-icon-should-be-available-to-the-left-side-of-the-regions-too)
 - Piano roll    
     - [The :2 x2 buttons](#the-2-x2-buttons)
+    - [Select every other note](#select-every-other-note)
 - Channel strip
     - [Favorite plugins list](#favorite-plugins-list)
     - [The search plugin/instrument box](#the-search-plugininstrument-box)
@@ -67,6 +68,8 @@ Every second counts.
 I believe implementing the ideas below in logic will greatly enhance the editing power of the users.
 
 Cheers.
+
+
 
 
 
@@ -673,8 +676,24 @@ for any channel strips (see my ["Being able to arrange the order of channel stri
 
 
 
+Select every other note
+-----------
+2020-08-23
 
 
+
+
+So I have this bassoon pattern:
+
+![bassoon pattern](https://lingtalfi.com/img/logicpro-feature-request-screenshots/select-every-other-note.png)
+
+
+I want to put every other note on the lower octave, but I don't know how to select every other note at once.
+I tried the default setting of the "select by sub-position" command, but it selects only one note every bar, not what I want.
+
+
+So, I feel this is the kind of command that comes very handy in moment like that, and I miss it.
+So I suggest that logic implements this command. 
 
 
 
@@ -728,6 +747,7 @@ Log
 ===========
 
 
+- 1.0.14: 2020-08-23: add "Select every other note" idea
 - 1.0.13: 2020-08-15: add "Creating mixing groups" idea
 - 1.0.12: 2020-08-12: add "Loop icon should be available to the left side of the regions too" idea
 - 1.0.12: 2020-08-12: add "Drum machine designer bugs" bug
