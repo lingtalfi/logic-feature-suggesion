@@ -778,6 +778,7 @@ Log
 ===========
 
 
+- 1.0.15: 2020-09-17: add "Being able to automate the step modulator rate from the arrange window" idea
 - 1.0.14: 2020-08-23: add "Select every other note" idea
 - 1.0.13: 2020-08-15: add "Creating mixing groups" idea
 - 1.0.12: 2020-08-12: add "Loop icon should be available to the left side of the regions too" idea
