@@ -1,13 +1,13 @@
 Logic feature suggestions
 ===============
-2020-07-22 -> 2020-08-23
+2020-07-22 -> 2020-09-17
 
 
 
 
 
 
-As I'm using Logic pro daily now, I'm starting to see little things that can be improved, 
+As I'm using Logic pro daily now, I'm starting to see little things that can be improved,
 which would make working with logic faster, I believe.
 
 
@@ -21,7 +21,7 @@ Here are the ideas you will find in this document:
 
 
 
-- General 
+- General
     - [The instant capture audio button](#the-instant-capture-audio-button) (if nothing else, this is the best feature to me)
     - [Loop icon should be available to the left side of the regions too](#loop-icon-should-be-available-to-the-left-side-of-the-regions-too)
 - Piano roll    
@@ -52,6 +52,13 @@ Here are the ideas you will find in this document:
 - Mixer
     - [Being able to arrange the order of channel strips](#being-able-to-arrange-the-order-of-channel-strips)
     - [Creating mixing groups](#creating-mixing-groups)
+- StepFx
+    - [Being able to automate the step modulator rate from the arrange window](#being-able-to-automate-the-step-modulator-rate-from-the-arrange-window)
+
+
+
+
+
 
 
 
@@ -61,7 +68,7 @@ And some bugs I found:
 - [Drum machine designer bugs](#drum-machine-designer-bugs)
 
 
-As I like to say, editing is a constraint, we, logic users, just want to be the most efficient possible at editing, 
+As I like to say, editing is a constraint, we, logic users, just want to be the most efficient possible at editing,
 so that implementing a musical idea is easy and intuitive, and is not a painful process.
 Every second counts.
 
@@ -104,7 +111,7 @@ Actually, with the alt behaviour of the pencil tool, we can do the first two ste
 
 - 1. Alt-click with the pencil tool where you want to create the cut
 - 2. Then with the pointer tool, select both end points
-- 3. Then delete them to obtain the desired result 
+- 3. Then delete them to obtain the desired result
 
 
 
@@ -137,7 +144,7 @@ Now I want to select only the top four points, to make them higher.
 
 It's hard in the current version of logic, because both the pointer tool, and the marquee tool both select a vertical slice, so with those two tools, I can't just
 draw a quick rectangle and get away with it; instead I need to shift-select them one by one.
- 
+
 In the above example I only had four points, but what if I have 100+ points, are you allowing that there is no tool in logic to select those points, apart from shift-clicking them?
 
 (well if that's the case that's terrible, it should be fixed)
@@ -164,16 +171,16 @@ Entering automation value manually with an input box
 ---------
 2020-07-22
 
-Sometimes it's hard to be precise with the mouse, let's say I want to place an automation point at -40dB (for instance), it would be much faster if I could just double-click the point and enter -40 manually, 
-rather than fiddling with the mouse, using the control modifier to augment the mouse accuracy and doing up/down mouse moves to try to nail the -40 spot. 
+Sometimes it's hard to be precise with the mouse, let's say I want to place an automation point at -40dB (for instance), it would be much faster if I could just double-click the point and enter -40 manually,
+rather than fiddling with the mouse, using the control modifier to augment the mouse accuracy and doing up/down mouse moves to try to nail the -40 spot.
 
- 
+
 
 
 
 
 Snap automation toggling via cmd modifier
--------------- 
+--------------
 2020-07-22
 
 
@@ -242,7 +249,7 @@ Currently, in logic 10.4.5, the only way (afaik) to capture exactly what we hear
 
 
 It would be awesome if we could just be on any track, and press a button which would record the output of "stereo out" and put it into a wave file directly.
- 
+
 I believe ableton has that kind of feature.
 
 In logic, we could for instance have an option to show that "instant audio capture" button, next to the record button for instance.
@@ -268,8 +275,8 @@ I saw that in ableton (again): basically in the piano roll, they have those hand
 This is handy, and I believe logic users should have the option to display them. They would be at the top of the piano roll.
 
 Currently, in logic 10.5.1, to achieve that, we have to open the midi transform dialog first, which is already nested in some menus, and then only reopen the menu to select the operation type, and then again
-click another time to validate the operation, this is way too much time spent for such a simple/common operation. 
-  
+click another time to validate the operation, this is way too much time spent for such a simple/common operation.
+
 
 
 
@@ -284,7 +291,7 @@ Basically the idea is to have an autocomplete box to search for plugins.
 
 Often, I know exactly which plugin I want to insert on my channel strip, for instance the h-delay from Waves.
 Still, it will invariably take me about 6 seconds just to insert it, because I have to open the plugin nested menu, scroll down to "Audio Units", then go to "Waves", being careful to not move my mouse out of the menu,
-and then from the Waves gigantic list of plugins, scroll down to "h", where is "h", after "g" but before "i", ..., and then finally find the "h-delay" plugin. 
+and then from the Waves gigantic list of plugins, scroll down to "h", where is "h", after "g" but before "i", ..., and then finally find the "h-delay" plugin.
 
 And that's when I know that Waves is the company behind the plugin, if I know the plugin name, but don't remember the vendor name, then I need to remember the vendor name first.
 
@@ -306,7 +313,7 @@ I could have 2 or 50 favorites, that list should display all those favorites, an
 
 I know that in my case, that would be much more helpful than the list of recently used plugins.
 
- 
+
 
 Arrangement markers: free mode
 ----------------
@@ -317,7 +324,7 @@ The **arrangement markers** in logic are a great tool to quickly edit vertical s
 
 
 The problem with the current arrangement markers is that it has only two operation modes:
- 
+
 - the default "swap" mode, where you can swap **arrangement markers** with their siblings
 - suspend content connection mode, where basically **arrangement markers** are just markers/labels
 
@@ -335,11 +342,11 @@ Moving a whole section to the right is a very common action in my workflow, and 
 
 My current options are:
 
-- either use the marquee tool ruler, but the problem with that is that I need to be very precise when dragging over the ruler, and then once I moved the selection, 
+- either use the marquee tool ruler, but the problem with that is that I need to be very precise when dragging over the ruler, and then once I moved the selection,
     I cannot recall that selection for later
 - or I can use the **arrangement markers**, I can simply create an empty **arrangement marker** to the right of the **arrangement marker** I want to move, then extend it to make the space I need,
     and then either duplicate my **arrangement marker** to the right of that pivot/empty **arrangement marker**, or swap it.
-    
+
 
 I prefer the first one, but the problem is that I need to redo the marquee drag every time I want to move the section again (i.e. it's not stored in memory).
 
@@ -356,7 +363,7 @@ However, I see the potential in them: as I always need to move vertical sections
 
 I really hope this feature is implemented, as it would probably multiply by 10 the editing power of most logic users.
 
-And if you do implement this, please remove the popup that occurs when you swap **arrangement markers**, which ask: 
+And if you do implement this, please remove the popup that occurs when you swap **arrangement markers**, which ask:
 
 ![arrangement-marker-popup](https://lingtalfi.com/img/logicpro-feature-request-screenshots/arrangement-marker-popup2.png)
 
@@ -368,8 +375,8 @@ Instead, the user should have the option to set it once for all in the preferenc
 - ask never
 
 
- 
- 
+
+
 Select vertical slice by region
 ------------
 2020-07-28
@@ -377,7 +384,7 @@ Select vertical slice by region
 
 When the user right clicks a midi/audio region, in the Select submenu, we should have an item that says:
 
-- select vertical slice with the selected region length 
+- select vertical slice with the selected region length
 
 
 Well, this label has too many chars, but you get the idea: the user should be able to select a whole vertical section rapidly.
@@ -400,7 +407,7 @@ Well, I just miss this one:
 
 because I just want to move it.
 
-"Cut Section Between Locators" is very close, but the content disappears, and then I need to place the playhead, 
+"Cut Section Between Locators" is very close, but the content disappears, and then I need to place the playhead,
 whereas for this particular case when all the regions are selected, I prefer to drag them where I want.
 
 
@@ -430,7 +437,7 @@ That sucks, because then we cannot easily loop it.
 I would love to be able to just drag the bottom corner of an audio region to extend it, just as a midi region behaves.
 And of course, the extended space where there is no concrete audio content should be fill with silence.
 
-Simple idea, but yet to organize the patterns in a song, it makes it much more consistent, intuitive, and therefore 
+Simple idea, but yet to organize the patterns in a song, it makes it much more consistent, intuitive, and therefore
 efficient to work with.
 
 
@@ -468,7 +475,7 @@ Then with the automation curve tool, I try to bend the lines to make it look lik
 ![automation-shape-tool-c](https://lingtalfi.com/img/logicpro-feature-request-screenshots/automation-shape-tool-c.png)
 
 
-We can see how hard it is for a human to make a perfect sine wave, and even if it probably doesn't matter too much, 
+We can see how hard it is for a human to make a perfect sine wave, and even if it probably doesn't matter too much,
 my sine wave is far from perfect in the above example.
 
 Therefore, it leads me to this suggestion: we should have automation shape tools for the basic shapes.
@@ -488,10 +495,10 @@ Like in adobe illustrator when you create a spiral, while we are holding the mou
 by tapping the up and down arrow keys. Note that those shortcuts only work while you are dragging with the mouse.
 
 The height and lenght of the overall pattern is defined by the imaginary rectangle selection made by the mouse (where the height of that rectangle is the amplitude
-of the shape, and the length is the total length of the container containing the x repetitions of that shape). 
- 
- 
- 
+of the shape, and the length is the total length of the container containing the x repetitions of that shape).
+
+
+
 Then I also believe a flatterner tool would be welcome, as an alternative to the eraser.
 
 - flattener tool
@@ -503,7 +510,7 @@ This means that probably at the left and right boundaries, a straight vertical c
 This flattener tool would help inserting custom shapes in the middle of other shapes, such as the shapes described above
 
 
- 
+
 
 
 Pointer tool and automation
@@ -531,11 +538,11 @@ Therefore I suggest the following:
 - with the pointer tool and the alt modifier, and the shift modifier, the vertical line should snap to the current snap automation value
 - with the pointer tool and the alt modifier, and the shift modifier, the up/down arrow keys should set the snap automation value to the prev/next value in the snap automation list (which by the way should be visible at the top of the arrangement window)
 
-So to sum up, I believe that having the alt modifier to make creation of points via the pointer tool will ultimately feel less clumsy than the double-clicking behaviour, 
+So to sum up, I believe that having the alt modifier to make creation of points via the pointer tool will ultimately feel less clumsy than the double-clicking behaviour,
 and more consistent, as it will be harder to create an automation point by accident with that behaviour.
- 
 
- 
+
+
 
 
 Duplicate automation should snap to grid
@@ -548,15 +555,15 @@ snap to a certain beat in my region (this automation pattern needs to be applied
 
 So I select my pattern with the selection tool, and alt click to duplicate, then drag the mouse to move the duplicated pattern
 where I want. Unfortunately, the pattern doesn't seem to snap to any snap grid defined. So this is imprecise, and clumsy, as I can never
-have the precision I want with a free mouse drag. 
+have the precision I want with a free mouse drag.
 
 So I suggest that the when duplicating an automation pattern with the alt modifier and the mouse, the pattern should snap to the defined snap value.
 
 
 Note: a workaround I found around this is to set my snap value to bar, then marquee select the whole automation pattern, and cmd+R (repeat) it,
 that's fine, but still I believe that the duplicate via alt-click should stick to the current snap value (because I don't see why not).
- 
- 
+
+
 
 
 
@@ -567,7 +574,7 @@ Slice at transient markers should be first class citizen
 
 When doing sound design, a very useful feature to have it to be able to slice an audio region into slices, each slice starting at a transient marker.
 
-Fortunately, logic 10.5.1 has this feature available, but unfortunately, it's quite deep: you have to turn on flex, then make your track flex, then only do you have the 
+Fortunately, logic 10.5.1 has this feature available, but unfortunately, it's quite deep: you have to turn on flex, then make your track flex, then only do you have the
 contextual menu that gives the "Slice at transient markers" option.
 
 In sound design, it's always good to be very efficient at doing things, as the mind is in a "creative mode" and doesn't need to be distracted with unnecessary mouse clicks and gui design problems.
@@ -606,7 +613,7 @@ Being able to arrange the order of channel strips
 ------------
 2020-08-12
 
- 
+
 As we add tracks on a song, it's important to keep things organized.
 One way to do this is assigning colors to tracks.
 
@@ -632,18 +639,18 @@ wherever we want, in the mixer window only (it shouldn't impact the environment 
 Note: I believe this one has been a thorn in the side of Logic for a long time, and should be fixed asap.  
 
 
- 
+
 Loop icon should be available to the left side of the regions too
 -----------------
 2020-08-12
 
 
 It's very convenient to have this loop icon on the right of the regions to make a loop quickly.
-However, sometimes I find myself needing to extend the loop to the left of the region rather than to the right, 
+However, sometimes I find myself needing to extend the loop to the left of the region rather than to the right,
 but logic doesn't allow that yet, so I need to drag the region to the left, and then re-cut the loop where I want it to end (since moving the region
 to the left will generally move the end point with it).
 
-It would be faster to just be able to extend the loop to the left side, so that's my feature suggestion. 
+It would be faster to just be able to extend the loop to the left side, so that's my feature suggestion.
 
 
 
@@ -661,7 +668,7 @@ the channel strips in the mixer.
 ![fruity-mixer-dock](https://lingtalfi.com/img/logicpro-feature-request-screenshots/fruity-mixer-dock-right.png)
 
 
-So this made me think about custom mixer organization in general. 
+So this made me think about custom mixer organization in general.
 
 I believe organization in the mixer is something the user should be able to do (same as re-arranging the tracks order in the arrange window).
 
@@ -693,7 +700,31 @@ I tried the default setting of the "select by sub-position" command, but it sele
 
 
 So, I feel this is the kind of command that comes very handy in moment like that, and I miss it.
-So I suggest that logic implements this command. 
+So I suggest that logic implements this command.
+
+
+
+
+
+
+Being able to automate the step modulator rate from the arrange window
+-------
+2020-09-17        
+
+I've noticed that it's possible to automate the stepFX's step modulator rate with the xy pad.
+
+However, my first desire was to automate the step modulator rate from the arrange window, which is for me the most convenient place to handle
+automation (as every parameter of every plugin shows up in the same window).
+I found that when I'm in automation mode in the arrange window, and I open the stepFX step modulator, and I click the rate button, it doesn't show up in the
+track's automation items, whereas when I click the depth or swing buttons, they show up.
+
+I wish that I could automate the step modulator's rate parameter from the arrange window, just like the step modulator's depth or swing.
+That would be convenient for many reasons:
+
+- I wouldn't have to guess a percentage by ear
+- it would be more direct (at least for what I want to do, which is slide from 1/8 to 1/16 to 1/32, lasting 1 bar for each rate)
+- it would be more consistent with the other params
+
 
 
 
@@ -713,8 +744,8 @@ Drum machine designer bugs
 
 
 ### Bug1: cannot set the dmd on a track inside a folder stack
-2020-08-12 
- 
+2020-08-12
+
 Let's say I have a folder stack with a few tracks in it.
 Now if I create a new software instrument track and put it inside this folder, the "drum machine designer" instrument is disabled.
 
@@ -727,7 +758,7 @@ a folder stack? (it sounds like a bug to me).
 
 
 ### Bug2: cannot change instrument when a dmd is set
-2020-08-12 
+2020-08-12
 
 
 Not sure if that's a bug, but it looks like it:
