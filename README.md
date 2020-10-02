@@ -587,6 +587,17 @@ The benefit of that would be:
 So that's my suggestion: being able to have an option to divide a segment in x equal parts.
 
 
+By the way, here is the final shape I ended up with:
+
+![Create x points between 2](https://lingtalfi.com/img/logicpro-feature-request-screenshots/create-x-points-between2.png)
+
+
+So, as we can see, a little help from logic wouldn't hurt, see also my [Automation shape tools](#automation-shape-tools) idea for 
+even more help from logic.
+
+
+
+
 
 
 
