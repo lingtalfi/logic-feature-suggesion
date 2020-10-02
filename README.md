@@ -1,6 +1,6 @@
 Logic feature suggestions
 ===============
-2020-07-22 -> 2020-09-17
+2020-07-22 -> 2020-10-02
 
 
 
@@ -47,6 +47,7 @@ Here are the ideas you will find in this document:
     - [Automation shape tools](#automation-shape-tools)
     - [Pointer tool and automation](#pointer-tool-and-automation)
     - [Duplicate automation should snap to grid](#duplicate-automation-should-snap-to-grid)
+    - [Create x points between](#create-x-points-between)
 - Drum machine designer
     - [duplicate dmd cells](#duplicate-dmd-cells)
 - Mixer
@@ -54,9 +55,6 @@ Here are the ideas you will find in this document:
     - [Creating mixing groups](#creating-mixing-groups)
 - StepFx
     - [Being able to automate the step modulator rate from the arrange window](#being-able-to-automate-the-step-modulator-rate-from-the-arrange-window)
-
-
-
 
 
 
@@ -566,6 +564,33 @@ that's fine, but still I believe that the duplicate via alt-click should stick t
 
 
 
+Create x points between
+---------------
+2020-10-02
+
+As we all know, automation is king to make sound interesting, especially in edm genres.
+
+So I have this case where I want to make a wobbling effect for my trance track, and so I know my starting point and end points:
+
+![Create x points between](https://lingtalfi.com/img/logicpro-feature-request-screenshots/create-x-points-between.png)
+
+Now all I want to do is divide the segment in 5 equal parts, to make the rhythmic effect for my wobble.
+
+Of course right now I have to do it manually, but it would be very helpful if logic had a function that allowed me to divide a segment by any number I wanted.
+
+The benefit of that would be:
+
+-  it would be much faster than me doing it manually
+-  it would much more precise than me doing it manually
+
+
+So that's my suggestion: being able to have an option to divide a segment in x equal parts.
+
+
+
+
+
+
 
 Slice at transient markers should be first class citizen
 -----------
@@ -778,6 +803,7 @@ Log
 ===========
 
 
+- 1.0.16: 2020-10-02: add "Create x points between" idea
 - 1.0.15: 2020-09-17: add "Being able to automate the step modulator rate from the arrange window" idea
 - 1.0.14: 2020-08-23: add "Select every other note" idea
 - 1.0.13: 2020-08-15: add "Creating mixing groups" idea
