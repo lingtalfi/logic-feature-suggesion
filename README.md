@@ -1,6 +1,6 @@
 Logic feature suggestions
 ===============
-2020-07-22 -> 2020-10-02
+2020-07-22 -> 2020-10-07
 
 
 
@@ -48,6 +48,7 @@ Here are the ideas you will find in this document:
     - [Pointer tool and automation](#pointer-tool-and-automation)
     - [Duplicate automation should snap to grid](#duplicate-automation-should-snap-to-grid)
     - [Create x points between](#create-x-points-between)
+    - [Show all automation should remember the order of the lanes](#show-all-automation-should-remember-the-order-of-the-lanes)
 - Drum machine designer
     - [duplicate dmd cells](#duplicate-dmd-cells)
 - Mixer
@@ -597,6 +598,21 @@ even more help from logic.
 
 
 
+Show all automation should remember the order of the lanes
+--------------
+2020-10-07
+
+
+This problem is also discussed in this post: https://www.logicprohelp.com/forum/viewtopic.php?t=109217#p611650.
+
+Basically, in current logic, when I set my automation lanes (for instance the first lane is set to the cutoff of an EQ plugin, and the second lane to the cutoff of a FILTER plugin), it's because I want to work with this track automation.
+
+The problem is that current logic just seems to ignore my preference, and every time I toggle the automation (shortcut A by default), which is basically every time I want to edit automation, logic reset the lane orders, and I have to tell him
+again that I want lane 1: EQ.cutoff and lane 2: FILTER.cutoff, and that's if I work only with 2 automation lanes, but often I have more.
+
+This is so annoying and time consuming.
+
+I suggest the automation lanes should never reset the order the user puts them in, because the user sets an order for a reason: he/she wants to work with those specific automation lanes for this track.
 
 
 
@@ -814,6 +830,7 @@ Log
 ===========
 
 
+- 1.0.17: 2020-10-07: add "Show all automation should remember the order of the lanes" idea
 - 1.0.16: 2020-10-02: add "Create x points between" idea
 - 1.0.15: 2020-09-17: add "Being able to automate the step modulator rate from the arrange window" idea
 - 1.0.14: 2020-08-23: add "Select every other note" idea
