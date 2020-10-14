@@ -455,7 +455,7 @@ Automation shape tools
 A good gui for automation could look like arturia's pigments gui for the functions. They have a step mode, a forward saw mode, and a backward saw mode, and points cannot be moved horizontally beyond their siblings (which is good for precision work).
 
 
-
+### Original post
 
 So let's say I want to create a sine form automation pattern.
 
