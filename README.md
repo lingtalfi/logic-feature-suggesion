@@ -1,6 +1,6 @@
 Logic feature suggestions
 ===============
-2020-07-22 -> 2020-10-07
+2020-07-22 -> 2020-10-14
 
 
 
@@ -448,7 +448,13 @@ efficient to work with.
 
 Automation shape tools
 -----------
-2020-08-05
+2020-08-05 -> 2020-10-18
+
+
+### Update 2020-10-18
+A good gui for automation could look like arturia's pigments gui for the functions. They have a step mode, a forward saw mode, and a backward saw mode, and points cannot be moved horizontally beyond their siblings (which is good for precision work).
+
+
 
 
 So let's say I want to create a sine form automation pattern.
@@ -830,6 +836,7 @@ Log
 ===========
 
 
+- 1.0.18: 2020-10-14: update the "Automation shape tools" idea
 - 1.0.17: 2020-10-07: add "Show all automation should remember the order of the lanes" idea
 - 1.0.16: 2020-10-02: add "Create x points between" idea
 - 1.0.15: 2020-09-17: add "Being able to automate the step modulator rate from the arrange window" idea
